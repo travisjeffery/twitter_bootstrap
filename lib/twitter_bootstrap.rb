@@ -1,5 +1,3 @@
+require 'less-rails'
 require "twitter_bootstrap/version"
-
-module TwitterBootstrap
-  # Your code goes here...
-end
+require 'twitter_bootstrap/rails/engine' if defined?(Rails)
